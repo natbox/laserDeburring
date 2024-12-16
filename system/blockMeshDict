@@ -18,31 +18,30 @@ convertToMeters 0.146;
 vertices
 (
 
-    (0      0     0    )  // vertex number  0
-    (2      0     0    )  // vertex number  1
-    (2.1643 0     0    )  // vertex number  2
-    (5      0     0    )  // vertex number  3
-    (0      0.001 0    )  // vertex number  4
-    (2      0.001 0    )  // vertex number  5
-    (2.1643 0.001 0    )  // vertex number  6
-    (5      0.001 0    )  // vertex number  7
-    (0      5     0    )  // vertex number  8
-    (2      5     0    )  // vertex number  9
-    (2.1643 5     0    )  // vertex number 10
-    (5      5     0    )  // vertex number 11
-    (0      0     0.001)  // vertex number 12
-    (2      0     0.001)  // vertex number 13
-    (2.1643 0     0.001)  // vertex number 14
-    (5      0     0.001)  // vertex number 15
-    (0      0.001 0.001)  // vertex number 16
-    (2      0.001 0.001)  // vertex number 17
-    (2.1643 0.001 0.001)  // vertex number 18
-    (5      0.001 0.001)  // vertex number 19
-    (0      5     0.001)  // vertex number 20
-    (2      5     0.001)  // vertex number 12
-    (2.1643 5     0.001)  // vertex number 22
-    (5      5     0.001)  // vertex number 23
-
+    (0      0     0     )  // vertex number  0
+    (2      0     0     )  // vertex number  1
+    (2.0001 0     0     )  // vertex number  2
+    (5      0     0     )  // vertex number  3
+    (0      0.001 0     )  // vertex number  4
+    (2      0.001 0     )  // vertex number  5
+    (2.0001 0.001 0     )  // vertex number  6
+    (5      0.001 0     )  // vertex number  7
+    (0      5     0     )  // vertex number  8
+    (2      5     0     )  // vertex number  9
+    (2.0001 5     0     )  // vertex number 10
+    (5      5     0     )  // vertex number 11
+    (0      0     0.0001)  // vertex number 12
+    (2      0     0.0001)  // vertex number 13
+    (2.0001 0     0.0001)  // vertex number 14
+    (5      0     0.0001)  // vertex number 15
+    (0      0.001 0.0001)  // vertex number 16
+    (2      0.001 0.0001)  // vertex number 17
+    (2.0001 0.001 0.0001)  // vertex number 18
+    (5      0.001 0.0001)  // vertex number 19
+    (0      5     0.0001)  // vertex number 20
+    (2      5     0.0001)  // vertex number 12
+    (2.0001 5     0.0001)  // vertex number 22
+    (5      5     0.0001)  // vertex number 23
 
 );
 
