@@ -34,7 +34,7 @@ boundaryField
         type            zeroGradient;
     }
 
-    atmosphere
+    robot
     {
         type            inletOutlet;
         inletValue      uniform 0;
