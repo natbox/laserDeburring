@@ -92,7 +92,7 @@ boundary
             (2 3 15 14)
         );
     }
-    atmosphere
+    robot
     {
         type patch;
         faces
