@@ -35,7 +35,7 @@ boundaryField
         type            omegaWallFunction;
         value           uniform 11.1;
     }
-    atmosphere
+    robot
     {
         type            inletOutlet;
         inletValue      uniform 11.1;
