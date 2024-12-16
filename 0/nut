@@ -35,7 +35,7 @@ boundaryField
         type            nutkWallFunction;
         value           uniform 0;
     }
-    atmosphere
+    robot
     {
         type            calculated;
         value           uniform 0;
