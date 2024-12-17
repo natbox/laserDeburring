@@ -16,7 +16,7 @@ FoamFile
 
 viscosityModel  constant;
 
-nu              46656;
+nu              264;
 
 rho             2698.9;
 
