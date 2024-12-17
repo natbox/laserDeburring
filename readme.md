@@ -1,2 +1,2 @@
 # Ray tracing
-`Presetting of deburring in a two dimensional optochemical space by OpenFOAM`
+`Presetting of deburring/welding in a two dimensional optochemical space by OpenFOAM`
