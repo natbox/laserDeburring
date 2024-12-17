@@ -1,1 +1,1 @@
-> Presetting of material deburring and welding without laser
+> Presetting of deburring and welding without laser
