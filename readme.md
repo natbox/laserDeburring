@@ -1,2 +1,2 @@
 # Ray tracing
-`Presetting of deburring/welding in an optochemical space using an incompressible potential flow solver by OpenFOAM`
+`Presetting of deburring/welding in an optochemical space using incompressible potential flow by OpenFOAM`
