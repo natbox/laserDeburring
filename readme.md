@@ -1,2 +1,2 @@
 # Ray tracing
-`Presetting of deburring in a two dimensional optochemical space using the VOF solver interFOAM`
+`Presetting of deburring in a two dimensional optochemical space using an interFOAM solver`
