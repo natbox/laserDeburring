@@ -1,2 +1,2 @@
 # Focused beam tracing
-`Presetting of deburring/welding in an optochemical space using incompressible potential flow by OpenFOAM`
+`Presetting of deburring/welding in an optochemical potential flow space without laser by OpenFOAM`
