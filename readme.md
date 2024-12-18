@@ -1,2 +1,2 @@
 # Ray tracing
-`Deburring preset in an optochemical potential flow space by OpenFOAM®`
+`Deburring preset in an optochemical space without laser by OpenFOAM®`
