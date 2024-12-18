@@ -1,2 +1,2 @@
 # Ray tracing
-`Presetting of optochemical fluid domain without laser by OpenFOAM®`
+`Presetting of optochemical domain without laser by OpenFOAM®`
