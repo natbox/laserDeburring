@@ -1,2 +1,2 @@
-# Simulation with foamRun/potentialFoam
+# Flow simulation with chemFoam
 `Optochemical ray tracing by OpenFOAM®`
