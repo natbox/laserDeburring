@@ -14,7 +14,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-application     foamRun;
+application     foamRun; // or chemFoam
 
 solver          incompressibleVoF;
 
