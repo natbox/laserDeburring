@@ -1,2 +1,2 @@
 # Beam tracing
-`Deburring preset in an optochemical potential flow space using solvers by OpenFOAM`
+`Deburring preset in an optochemical potential flow space using OpenFOAM solvers and ParaView`
