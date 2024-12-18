@@ -1,2 +1,2 @@
 # Beam tracing
-`Deburring presetting in an optochemical potential flow space without laser by OpenFOAM`
+`Deburring preset in an optochemical potential flow space without laser by OpenFOAM`
