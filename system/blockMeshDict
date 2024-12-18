@@ -30,11 +30,11 @@ vertices
     (2      5     0    )  // point 18
     (2.0001 5     0    )  // point 20
     (5      5     0    )  // point 22
-    (0      0     1e-04)  // point 1
-    (2      0     1e-04)  // point 3
-    (2.0001 0     1e-04)  // point 5
-    (5      0     1e-04)  // point 7
-    (0      1e-04 1e-04)  // point 9
+    (0      0     1e-04)  // point  1
+    (2      0     1e-04)  // point  3
+    (2.0001 0     1e-04)  // point  5
+    (5      0     1e-04)  // point  7
+    (0      1e-04 1e-04)  // point  9
     (2      1e-04 1e-04)  // point 11
     (2.0001 1e-04 1e-04)  // point 13
     (5      1e-04 1e-04)  // point 15
