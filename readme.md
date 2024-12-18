@@ -1,2 +1,2 @@
-# Example simulation
+# Flow simulation
 `Optochemical ray tracing by OpenFOAM®`
