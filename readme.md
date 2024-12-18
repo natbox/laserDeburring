@@ -1,2 +1,2 @@
 # Ray tracing
-`Presetting in optochemical two dimensional spaces without laser by OpenFOAM®`
+`Presetting of optochemical two dimensional spaces without laser by OpenFOAM®`
