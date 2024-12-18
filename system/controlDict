@@ -14,7 +14,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-application     optochemicalFoam;
+application     potentialFoam;
 
 solver          incompressibleVoF;
 
