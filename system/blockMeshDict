@@ -21,27 +21,27 @@ vertices
     (0      0     0    )  //  point  0
     (2      0     0    )  //  point  2
     (2.0001 0     0    )  //  point  4
-    (5      0     0    )  //  point  6
+    (6      0     0    )  //  point  6
     (0      1e-04 0    )  //  point  8
     (2      1e-04 0    )  //  point 10
     (2.0001 1e-04 0    )  //  point 12
-    (5      1e-04 0    )  //  point 14
-    (0      5     0    )  //  point 16
-    (2      5     0    )  //  point 18
-    (2.0001 5     0    )  //  point 20
-    (5      5     0    )  //  point 22
+    (6      1e-04 0    )  //  point 14
+    (0      6     0    )  //  point 16
+    (2      6     0    )  //  point 18
+    (2.0001 6     0    )  //  point 20
+    (6      6     0    )  //  point 22
     (0      0     1e-04)  //  point  1
     (2      0     1e-04)  //  point  3
     (2.0001 0     1e-04)  //  point  5
-    (5      0     1e-04)  //  point  7
+    (6      0     1e-04)  //  point  7
     (0      1e-04 1e-04)  //  point  9
     (2      1e-04 1e-04)  //  point 11
     (2.0001 1e-04 1e-04)  //  point 13
-    (5      1e-04 1e-04)  //  point 15
-    (0      5     1e-04)  //  point 17
-    (2      5     1e-04)  //  point 19
-    (2.0001 5     1e-04)  //  point 21
-    (5      5     1e-04)  //  point 23
+    (6      1e-04 1e-04)  //  point 15
+    (0      6     1e-04)  //  point 17
+    (2      6     1e-04)  //  point 19
+    (2.0001 6     1e-04)  //  point 21
+    (6      6     1e-04)  //  point 23
 
 );
 
