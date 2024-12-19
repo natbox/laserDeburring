@@ -14,7 +14,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-phases          (aluminium argon);
+phases          (copper argon);
 
 sigma           0.4; // mol/s2N
 
