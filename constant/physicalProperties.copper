@@ -10,15 +10,15 @@ FoamFile
     format      ascii;
     class       dictionary;
     location    "constant";
-    object      physicalProperties.aluminium;
+    object      physicalProperties.copper;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 viscosityModel  constant;
 
 nu            377.00e-06; // kg/m/s
-//             26.98e-03     kg/mol
-rho           269.89e+01; // kg/m3
+//             63.55e-03     kg/mol
+rho           896.00e+01; // kg/m3
 
 
 // ************************************************************************* //
