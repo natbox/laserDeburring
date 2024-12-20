@@ -3,7 +3,7 @@ import numpy as np
 import plotly.express as alpha
 import plotly
 import array as arr
-c=10
+c=16
 a = 0.1*np.ones((c,c))
 beam = np.ones((c,c))
 a[0][0]=0.5
