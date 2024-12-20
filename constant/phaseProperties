@@ -14,7 +14,7 @@ FoamFile
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-phases          (cu ar);
+phases          (zn ar);
 
 sigma            0.0625; // mol/s2N
 
