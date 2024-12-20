@@ -13,8 +13,6 @@ j=0
 # creating array
 k = arr.array('i', [1, 2, 3])
 # iterating and printing each item
-#for i in range(0, 3):
-#    print(k[i], end=" ")
 for z in range(1,6,1):
   for y in range(7,2,-1):
     i=int(y)
