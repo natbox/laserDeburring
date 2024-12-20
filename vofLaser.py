@@ -10,12 +10,12 @@ a[0][0]=0.5
 b = np.arange(c,0,-1)
 i=0
 j=0
-# Solid zinc is surrounded by argon and the metal is dissolved by a vof laser
+# Solid zinc is surrounded by argon and the metal is dissolved by a mixed process beam
 # creating array
 k = arr.array('i', [1, 2, 3])
 # iterating and printing each item
-for z in range(1,c-3,1):
-  for y in range(c-3,1,-1):
+for z in range(0,int(c/2),1):
+  for y in range(int(c)-1,int(c/2)-1,-1):
     i=int(y)
     j=int(z)
     a[j][i]=0.9
