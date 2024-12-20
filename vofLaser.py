@@ -5,7 +5,7 @@ import plotly.express as alpha
 import plotly.figure_factory as ff
 import plotly
 import array as arr
-c=12
+c=6
 wavelength=633;
 a = 0.1*np.ones((c,c))
 beam = np.ones((c,c))
