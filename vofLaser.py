@@ -30,7 +30,7 @@ rayf=a*beam;
 
 #beam=100*beam;
 # Solid zinc is surrounded by argon and molten 
-# by a laser beam creating an potential flow
+# by a laser beam creating a potential flow
 i=0
 j=0
 # iterating and printing each item
