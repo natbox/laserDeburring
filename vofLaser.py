@@ -34,8 +34,9 @@ rayf=a*beam;
 i=0
 j=0
 # iterating and printing each item
-for z in range(1,int(c/2)+1,1):
-  for y in range(int(c)-2,int(c/2)-2,-1):
+for z in range(int(c/2),int(c)-1,1):
+  #for y in range(int(c)-7,int(c/2)-7,-1):
+  for y in range(int(c/2)-1,0,-1):
     i=int(y)
     j=int(z)
     beam[j][i]=1
