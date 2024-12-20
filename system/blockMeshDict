@@ -17,14 +17,14 @@ convertToMeters 1;
 
 vertices
 ( // x1   x2   x3
-   (-1   -1    0.00)    // vertex number 0
-   ( 1   -1    0.00)    // vertex number 1
-   ( 1    1    0.00)    // vertex number 2
-   (-1    1    0.00)    // vertex number 3
-   (-1   -1    0.01)    // vertex number 4
-   ( 1   -1    0.01)    // vertex number 5
-   ( 1    1    0.01)    // vertex number 6
-   (-1    1    0.01)    // vertex number 7
+   (-1   -1    0.00)    // point 0
+   ( 1   -1    0.00)    // point 1
+   ( 1    1    0.00)    // point 2
+   (-1    1    0.00)    // point 3
+   (-1   -1    0.01)    // point 4
+   ( 1   -1    0.01)    // point 5
+   ( 1    1    0.01)    // point 6
+   (-1    1    0.01)    // point 7
 );
 
 blocks
