@@ -10,15 +10,15 @@ FoamFile
     format      ascii;
     class       dictionary;
     location    "constant";
-    object      physicalProperties.cu;
+    object      physicalProperties.zn;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 viscosityModel  constant;
 
 nu            377.00e-06; // kg/m/s
-//             63.55e-03     kg/mol
-rho           896.00e+01; // kg/m3
+//             65.38e-03     kg/mol
+rho           714.00e+01; // kg/m3
 
 
 // ************************************************************************* //
