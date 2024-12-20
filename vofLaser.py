@@ -27,7 +27,7 @@ for z in range(1,int(c/2)+1,1):
   for y in range(int(c)-2,int(c/2)-2,-1):
     i=int(y)
     j=int(z)
-    beam[j][i]=0 # alpha
+    beam[j][i]=0
 fig = alpha.imshow(beam,text_auto=True)
 fig.show()
 #plotly.offline.plot(fig, filename='alpha.html')
