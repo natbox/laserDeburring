@@ -47,7 +47,7 @@ for z in range(int(c/2),-int(c/2),-1):
   for y in range(-int(c/2),int(c/2),1):
     i=int(y)
     j=int(z)
-    beam[j][i]=abs(beam[j][i]-1)
+    beam[j][i]=abs(beam[j][i]-1)/0.002547769
 
 fig = alpha.imshow(beam,text_auto=True)
 fig.show()
