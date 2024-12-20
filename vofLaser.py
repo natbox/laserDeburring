@@ -42,7 +42,7 @@ for z in range(int(c/2),int(c)-1,1):
     j=int(z)
     beam[j][i]=1
 f=np.gradient(beam)
-#fig = alpha.imshow(beam,text_auto=True)
+fig = alpha.imshow(beam,text_auto=True)
 fig.show()
 
 #plotly.offline.plot(fig1, filename='alpha.html')
