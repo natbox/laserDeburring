@@ -17,8 +17,8 @@ for z in range(int(c/2),-int(c/2),-1):
     i=int(y)
     j=int(z)
     r=numpy.sqrt(i**2+j**2)
-    beam[j][i]=numpy.exp(-r**2/c**2)
-    #beam[j][i]=beam[j][i]/beam.max()
+    beam[j][i]=numpy.exp(-r**2/c**4)
+    beam[j][i]=beam[j][i]/beam.max()
     #beam[j][i]=1/r**2
 rayf=a*beam;
 
