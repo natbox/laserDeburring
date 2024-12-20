@@ -16,42 +16,22 @@ FoamFile
 convertToMeters 0.146;
 
 vertices
-(
-
-    (0      0     0    )  //  point  0
-    (2      0     0    )  //  point  2
-    (2.0001 0     0    )  //  point  4
-    (6      0     0    )  //  point  6
-    (0      1e-04 0    )  //  point  8
-    (2      1e-04 0    )  //  point 10
-    (2.0001 1e-04 0    )  //  point 12
-    (6      1e-04 0    )  //  point 14
-    (0      6     0    )  //  point 16
-    (2      6     0    )  //  point 18
-    (2.0001 6     0    )  //  point 20
-    (6      6     0    )  //  point 22
-    (0      0     1e-04)  //  point  1
-    (2      0     1e-04)  //  point  3
-    (2.0001 0     1e-04)  //  point  5
-    (6      0     1e-04)  //  point  7
-    (0      1e-04 1e-04)  //  point  9
-    (2      1e-04 1e-04)  //  point 11
-    (2.0001 1e-04 1e-04)  //  point 13
-    (6      1e-04 1e-04)  //  point 15
-    (0      6     1e-04)  //  point 17
-    (2      6     1e-04)  //  point 19
-    (2.0001 6     1e-04)  //  point 21
-    (6      6     1e-04)  //  point 23
-
+( // x1   x2   x3
+   ( 0    0    0.00)    // vertex number 0
+   ( 6    0    0.00)    // vertex number 1
+   ( 6    6    0.00)    // vertex number 2
+   ( 0    6    0.00)    // vertex number 3
+   ( 0    0    0.01)    // vertex number 4
+   ( 6    0    0.01)    // vertex number 5
+   ( 6    6    0.01)    // vertex number 6
+   ( 0    6    0.01)    // vertex number 7
 );
 
 blocks
 (
-    hex (0 1 5 4 12 13 17 16) (23 8 1) simpleGrading (1 1 1)
-    hex (2 3 7 6 14 15 19 18) (19 8 1) simpleGrading (1 1 1)
-    hex (4 5 9 8 16 17 21 20) (23 42 1) simpleGrading (1 1 1)
-    hex (5 6 10 9 17 18 22 21) (4 42 1) simpleGrading (1 1 1)
-    hex (6 7 11 10 18 19 23 22) (19 42 1) simpleGrading (1 1 1)
+    hex (0 1 2 3 4 5 6 7)    // vertex numbers
+    (42 42 1)                // numbers of cells in each direction
+    simpleGrading (1 1 1)    // cell expansion ratios
 );
 
 defaultPatch
@@ -59,49 +39,46 @@ defaultPatch
     type empty;
 }
 
-boundary
+boundary             // keyword
 (
-    leftWall
+    leftWall         // patch name
     {
-        type wall;
-        faces
-        (
-            (0 12 16 4)
-            (4 16 20 8)
-        );
-    }
-    rightWall
+    type wall;       // patch type for patch 0
+    faces
+    (
+        (0 4 7 3)    // block face in this patch
+    );
+    }                // end of 0th patch definition
+
+    rightWall        // patch name
     {
-        type wall;
-        faces
-        (
-            (7 19 15 3)
-            (11 23 19 7)
-        );
+    type wall;       // patch type for patch 1
+    faces
+    (
+        (1 2 6 5)
+    );
     }
+
     lowerWall
     {
-        type wall;
-        faces
-        (
-            (0 1 13 12)
-            (1 5 17 13)
-            (5 6 18 17)
-            (2 14 18 6)
-            (2 3 15 14)
-        );
+    type wall;
+    faces
+    (
+        (0 1 5 4)
+        (0 3 2 1)
+    );
     }
+
     robot
     {
-        type patch;
-        faces
-        (
-            (8 20 21 9)
-            (9 21 22 10)
-            (10 22 23 11)
-        );
+    type patch;
+    faces
+    (
+        (3 7 6 2)
+        (4 5 6 7)
+    );
     }
-);
 
+);
 
 // ************************************************************************* //
