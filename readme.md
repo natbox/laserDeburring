@@ -1,2 +1,2 @@
-# Flow simulation chemFoam: laserSoldering of Ar/Zn-mixture
+# Flow simulation chemFoam: laser soldering and welding
 `Optochemical ray tracing by OpenFOAM®`
