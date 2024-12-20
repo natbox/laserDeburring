@@ -16,7 +16,7 @@ FoamFile
 
 solvers
 {
-    "alpha.cu.*"
+    "alpha.zn.*"
     {
         nAlphaCorr      2;
         nAlphaSubCycles 1;
