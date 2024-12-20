@@ -43,7 +43,7 @@ for z in range(int(c/2),int(c)-1,1):
     beam[j][i]=1
 f=np.gradient(beam)
 #fig = alpha.imshow(beam,text_auto=True)
-#fig.show()
+fig.show()
 
 #plotly.offline.plot(fig1, filename='alpha.html')
 
@@ -53,4 +53,4 @@ u = np.cos(x)*y
 v = np.sin(x)*y
 
 fig = ff.create_quiver(x, y, u, v)
-fig.show()
+#fig.show()
