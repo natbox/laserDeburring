@@ -3,7 +3,7 @@ import numpy as np
 import plotly.express as alpha
 import plotly
 import array as arr
-c=16
+c=12
 a = 0.1*np.ones((c,c))
 beam = np.ones((c,c))
 a[0][0]=0.5
@@ -14,7 +14,7 @@ for z in range(int(c/2),-int(c/2),-1):
   for y in range(-int(c/2),int(c/2),1):
     i=int(y)
     j=int(z)
-    beam[j][i]=(3*(i**2+j**2)/c**3)
+    beam[j][i]=(8*(i**2+j**2)/c**3)
     beam[j][i]=beam[j][i]/beam.max()
 rayf=a*beam;
 beam=100*beam;
