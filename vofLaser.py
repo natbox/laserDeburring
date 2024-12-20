@@ -10,7 +10,7 @@ a[0][0]=0.5
 b = np.arange(c,0,-1)
 i=0
 j=0
-# Solid zinc is surrounded by argon and the metal is dissolved by a process beam
+# Solid zinc is surrounded by argon and molten by a laser beam
 # creating array
 k = arr.array('i', [1, 2, 3])
 # iterating and printing each item
