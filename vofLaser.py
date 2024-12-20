@@ -5,9 +5,9 @@ import plotly.express as alpha
 import plotly.figure_factory as ff
 import plotly
 import array as arr
-c=8
+c=24
 wavelength=633;
-a = 0.1*np.ones((c,c))
+a = 0.0*np.ones((c,c))
 beam = np.ones((c,c))
 a[0][0]=0.5
 b = np.arange(c,0,-1)
