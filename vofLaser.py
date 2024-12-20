@@ -10,17 +10,6 @@ a[0][0]=0.5
 b = np.arange(c,0,-1)
 i=0
 j=0
-# Solid zinc is surrounded by argon and molten by a laser beam
-# creating array
-k = arr.array('i', [1, 2, 3])
-# iterating and printing each item
-for z in range(1,int(c/2)+1,1):
-  for y in range(int(c)-2,int(c/2)-2,-1):
-    i=int(y)
-    j=int(z)
-    a[j][i]=0.9 # alpha
-i=0
-j=0
 for z in range(int(c/2),-int(c/2),-1):
   for y in range(-int(c/2),int(c/2),1):
     i=int(y)
@@ -29,6 +18,16 @@ for z in range(int(c/2),-int(c/2),-1):
     beam[j][i]=beam[j][i]/beam.max()
 rayf=a*beam;
 beam=100*beam;
+# Solid zinc is surrounded by argon and molten by a laser beam
+# creating array
+i=0
+j=0
+# iterating and printing each item
+for z in range(1,int(c/2)+1,1):
+  for y in range(int(c)-2,int(c/2)-2,-1):
+    i=int(y)
+    j=int(z)
+    beam[j][i]=0 # alpha
 fig = alpha.imshow(beam,text_auto=True)
 fig.show()
 #plotly.offline.plot(fig, filename='alpha.html')
