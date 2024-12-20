@@ -23,7 +23,7 @@ regions
 (
     boxToCell
     {
-        box (0 0 -1) (0.292 0.398 0.010);
+        box (0 0 -1) (3 3 0.01);
         fieldValues
         (
             volScalarFieldValue alpha.cu 0.9
