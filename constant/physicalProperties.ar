@@ -17,7 +17,7 @@ FoamFile
 viscosityModel  constant;
 
 nu              2.09e-05; // kg/m/s
-//            399.47e-04     kg/mol
+
 rho           178.38e-05; // kg/m3
 
 
