@@ -14,8 +14,8 @@ j=0
 # creating array
 k = arr.array('i', [1, 2, 3])
 # iterating and printing each item
-for z in range(0,int(c/2)+1,1):
-  for y in range(int(c)-1,int(c/2)-1,-1):
+for z in range(1,int(c/2)+1,1):
+  for y in range(int(c)-2,int(c/2)-2,-1):
     i=int(y)
     j=int(z)
     a[j][i]=0.9 # alpha
