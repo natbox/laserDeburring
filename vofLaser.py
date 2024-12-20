@@ -5,7 +5,7 @@ import plotly.express as alpha
 import plotly.figure_factory as ff
 import plotly
 import array as arr
-c=10
+c=12
 wavelength=633;
 a = 0.1*np.ones((c,c))
 beam = np.ones((c,c))
@@ -18,7 +18,7 @@ for z in range(int(c/2),-int(c/2),-1):
     i=int(y)
     j=int(z)
     r=numpy.sqrt(i**2+j**2)
-    beam[j][i]=numpy.exp(-r**2/1600)
+    beam[j][i]=numpy.exp(-r**2/c**2)
     beam[j][i]=beam[j][i]/beam.max()
     #beam[j][i]=1/r**2
 rayf=a*beam;
@@ -47,7 +47,12 @@ for z in range(int(c/2),-int(c/2),-1):
   for y in range(-int(c/2),int(c/2),1):
     i=int(y)
     j=int(z)
-    beam[j][i]=abs(beam[j][i]-1)/0.03076677
+    beam[j][i]=abs(beam[j][i]-1)
+for z in range(int(c/2),-int(c/2),-1):
+  for y in range(-int(c/2),int(c/2),1):
+    i=int(y)
+    j=int(z)
+    beam[j][i]=beam[j][i]/beam.max()
 
 fig = alpha.imshow(beam,text_auto=True)
 fig.show()
