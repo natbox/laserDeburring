@@ -16,7 +16,7 @@ FoamFile
 
 defaultFieldValues
 (
-    volScalarFieldValue alpha.cu 0
+    volScalarFieldValue alpha.cu 0.1
 );
 
 regions
@@ -26,7 +26,7 @@ regions
         box (0 0 -1) (0.292 0.398 0.010);
         fieldValues
         (
-            volScalarFieldValue alpha.cu 1
+            volScalarFieldValue alpha.cu 0.9
         );
     }
 );
