@@ -18,8 +18,8 @@ for z in range(int(c/2),-int(c/2),-1):
     beam[j][i]=beam[j][i]/beam.max()
 rayf=a*beam;
 beam=100*beam;
-# Solid zinc is surrounded by argon and molten by a laser beam
-# creating array
+# Solid zinc is surrounded by argon and molten 
+# by a laser beam via creating an array
 i=0
 j=0
 # iterating and printing each item
