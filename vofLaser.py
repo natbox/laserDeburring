@@ -25,7 +25,7 @@ for z in range(int(c/2),-int(c/2),-1):
   for y in range(-int(c/2),int(c/2),1):
     i=int(y)
     j=int(z)
-    beam[j][i]=((i**3+j**3)/c**2)
+    beam[j][i]=abs((i**3+j**3)/c**2)
 rayf=a*beam;
 fig = alpha.imshow(rayf,text_auto=True)
 fig.show()
